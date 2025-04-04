@@ -144,3 +144,10 @@ a {
                                    __/ |
                                   |___/
  */
+
+#right-side-landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+}
