@@ -11,5 +11,8 @@
   "description": "",
   "devDependencies": {
     "express": "^5.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.4"
   }
 }

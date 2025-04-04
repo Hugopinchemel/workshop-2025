@@ -61,8 +61,14 @@ a {
     }
 }
 
-
-/* Navigation */
+/*
+  _   _             _
+ | \ | |           | |
+ |  \| | __ ___   _| |__   __ _ _ __
+ | . ` |/ _` \ \ / / '_ \ / _` | '__|
+ | |\  | (_| |\ V /| |_) | (_| | |
+ |_| \_|\__,_| \_/ |_.__/ \__,_|_|
+*/
 #navbar {
     padding: 1rem 10%;
     display: flex;
@@ -86,13 +92,16 @@ a {
 
 #left-side-navbar {
     display: flex;
+    gap: 5vw;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-#left-side-navbar a img {
-    height: 5vh;
-    width: 5vh;
+@media (min-width: 992px) {
+    #left-side-navbar {
+        flex-direction: row; /* En ligne sur desktop */
+    }
 }
 
 #right-side-navbar {
@@ -124,3 +133,14 @@ a {
     transform: scaleX(1);
     transform-origin: right;
 }
+
+/*
+  _                     _ _
+ | |                   | (_)
+ | |     __ _ _ __   __| |_ _ __   __ _
+ | |    / _` | '_ \ / _` | | '_ \ / _` |
+ | |___| (_| | | | | (_| | | | | | (_| |
+ |______\__,_|_| |_|\__,_|_|_| |_|\__, |
+                                   __/ |
+                                  |___/
+ */
