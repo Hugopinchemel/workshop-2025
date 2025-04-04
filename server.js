@@ -32,7 +32,7 @@ app.get('/index-css', (req, res) => {
 
 app.get('/landing-img', (req, res) => {
   res.setHeader('Content-Type', 'img/svg+xml');
-  res.sendFile(path.join(__dirname, 'public/js/index.js'));
+  res.sendFile(path.join(__dirname, 'public/assets/landing-img.svg'));
 });
 
 
