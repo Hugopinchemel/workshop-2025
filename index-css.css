@@ -1,8 +1,15 @@
+
+h1 {
+    font-weight: 800;
+    font-style: normal;
+}
+
+
 #podcast-area {
     background-image: url("assets/wavy-line.svg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-position: center;
+    background-position: top;
     background-color: #f0f0f0;
 }
 
@@ -21,4 +28,11 @@
 .data-area {
     background-color: #49504C;
     color: white;
+}
+
+.FAQ {
+    background-image: url("assets/wavy-line.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    background-position: bottom;
 }
