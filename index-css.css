@@ -1,0 +1,24 @@
+#podcast-area {
+    background-image: url("assets/wavy-line.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-color: #f0f0f0;
+}
+
+.wavy-line {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.wavy-line img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.data-area {
+    background-color: #49504C;
+    color: white;
+}
